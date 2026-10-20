@@ -1,0 +1,129 @@
+{
+  "id": "p51",
+  "title": "Sagnac Entangled-Photon Source",
+  "category": "Quantum Communication",
+  "silhouette": "loop",
+  "slowMotion": false,
+  "falseColor": false,
+  "nodes": [
+    {
+      "id": "n1",
+      "glyph": "laser",
+      "label": "Coherent pump paths",
+      "role": "path",
+      "x": 0.5,
+      "y": 0.22
+    },
+    {
+      "id": "n2",
+      "glyph": "crystal",
+      "label": "Periodically poled crystal",
+      "role": "path",
+      "x": 0.766,
+      "y": 0.4
+    },
+    {
+      "id": "n3",
+      "glyph": "photon",
+      "label": "Alternative pair-generation amplitudes",
+      "role": "path",
+      "x": 0.665,
+      "y": 0.69
+    },
+    {
+      "id": "n4",
+      "glyph": "plate",
+      "label": "Separate modes",
+      "role": "structure",
+      "x": 0.335,
+      "y": 0.69
+    },
+    {
+      "id": "n5",
+      "glyph": "detector",
+      "label": "Analyzer correlations",
+      "role": "path",
+      "x": 0.234,
+      "y": 0.4
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "role": "path",
+      "start": 150,
+      "end": 1019
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "role": "path",
+      "start": 300,
+      "end": 1019
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "role": "path",
+      "start": 510,
+      "end": 1019
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "role": "path",
+      "start": 750,
+      "end": 1019
+    }
+  ],
+  "emphasis": [
+    [
+      "n1"
+    ],
+    [
+      "n2"
+    ],
+    [
+      "n3"
+    ],
+    [
+      "n4"
+    ],
+    [
+      "n5"
+    ]
+  ],
+  "stages": [
+    {
+      "f0": 0,
+      "f1": 149,
+      "action": "Reveal coherent pump paths",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 150,
+      "f1": 299,
+      "action": "Show periodically poled crystal",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 300,
+      "f1": 509,
+      "action": "Show alternative pair-generation amplitudes",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 510,
+      "f1": 749,
+      "action": "Recombine and separate modes",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    },
+    {
+      "f0": 750,
+      "f1": 1019,
+      "action": "Accumulate analyzer correlations",
+      "detail": "Earlier hardware stays in frame. This step changes only what is emphasized."
+    }
+  ]
+}
