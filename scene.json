@@ -11,40 +11,40 @@
       "glyph": "laser",
       "label": "Coherent pump paths",
       "role": "path",
-      "x": 0.5,
-      "y": 0.22
+      "x": 0.14,
+      "y": 0.32
     },
     {
       "id": "n2",
       "glyph": "crystal",
       "label": "Periodically poled crystal",
       "role": "path",
-      "x": 0.766,
-      "y": 0.4
+      "x": 0.5,
+      "y": 0.32
     },
     {
       "id": "n3",
       "glyph": "photon",
       "label": "Alternative pair-generation amplitudes",
       "role": "path",
-      "x": 0.665,
-      "y": 0.69
+      "x": 0.86,
+      "y": 0.32
     },
     {
       "id": "n4",
       "glyph": "plate",
       "label": "Separate modes",
       "role": "structure",
-      "x": 0.335,
-      "y": 0.69
+      "x": 0.14,
+      "y": 0.7
     },
     {
       "id": "n5",
       "glyph": "detector",
       "label": "Analyzer correlations",
       "role": "path",
-      "x": 0.234,
-      "y": 0.4
+      "x": 0.86,
+      "y": 0.7
     }
   ],
   "edges": [
